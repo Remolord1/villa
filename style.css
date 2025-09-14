@@ -47,7 +47,7 @@
   color: #f6e4e4;          
   border-radius: 50%;    
   text-decoration: none; 
-  transition: background-color 0.3s ease; 
+   
 }
 
 .icons li a:hover {
@@ -232,6 +232,124 @@ div ul{
   margin-left: 850px;
 }
 .row{
-  width: 500px;
-  box-shadow: 1px lightblue;
+  width: 350px;
+  box-shadow: 1px black;
+}
+.row {
+ left: 1000px;
+ border: 1px solid;
+ height: 300px;
+ position: absolute;
+ bottom: -700px;
+ box-shadow: black;
+ width: 300px;
+ border-radius: 30px;
+
+}
+.listgrp {
+  border: 1px solid black;
+  width: 300px;
+  height: 550px;
+  border-radius: 20px;
+  position: absolute;
+  right: 70px;
+  top: 950px;
+  display: flex;
+  left: 1000px;
+  flex-direction: column;
+  gap: 37px;
+  padding: 25px;
+
+
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon1,.icon2,.icon3,.icon4 {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon1 {
+  background-image: url("./images/info-icon-01.png")
+}
+
+.icon2 {
+  background-image: url("./images/info-icon-02.png")
+}
+
+.icon3 {
+  background-image: url("./images/info-icon-03.png")
+}
+
+.icon4 {
+  background-image: url("./images/info-icon-04.png")
+}
+
+.text h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.text p {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+.blurred{
+  background-image: url("./images/video-bg.jpg");
+  width: 450%;
+  height: 500px;
+  margin-left: -150px;
+  margin-top: 600px;
+
+}
+.qq{
+  color: orangered;
+  position: absolute;
+  margin-top: 100px;
+  left: 630px;
+  
+}
+.rr{
+  color: whitesmoke;
+  margin-left: 550px;
+  position: absolute;
+  margin-top: 150px;
+}
+.uu{
+  background-image: url("./images/video-frame.jpg");
+  height: 450px;
+  width: 70%;
+  border-radius: 2%;
+  position: absolute;
+  margin-top: 300px;
+  left: 15%;
+  
+
+}
+.og{
+  border: 1px solid;
+  width: 70%;
+  height: 100px;
+  margin-top: 300px;
+  background-color: lightsalmon;
+
+}
+
+.og1{
+  margin-top: 25px;
+}
+.og2{
+  margin-bottom: 70px;
+  margin-left: 70px;
+  position: relative;
 }
