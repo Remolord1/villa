@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: wheat;
+  color: gray;
+}
+
+/* Section */
+.properties-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Headings */
+.breadcrumbs {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  margin-bottom: 30px;
+}
+
+.filter-buttons button {
+  border: none;
+  background: #000;
+  color: lightgray;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  
+
+}
+
+.filter-buttons button.active,
+.filter-buttons button:hover {
+  background: orangered;
+}
+
+/* Properties Grid */
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.property-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px ;
+  transition: transform 0.3s;
+}
+
+
+.property-card img {
+  width: 100%;
+  height: 200px;
+  
+}
+
+.property-info {
+  padding: 15px;
+  text-align: left;
+}
+
+.property-info h3 {
+  color: orangered;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.property-info p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.property-info ul {
+  list-style: none;
+  font-size: 13px;
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.property-info ul li {
+  margin-bottom: 3px;
+}
+
+.property-info button {
+  background: black;
+  color: lightgray;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+ 
+ 
+}
+
+
+
+/* Pagination */
+.pagination {
+  margin-top: 40px;
+}
+
+.pagination span {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 4px;
+  border-radius: 5px;
+  background: lightgrey;
+  
+}
+
+.pagination span.active {
+  background: orangered;
+  color: lightcyan;
+}

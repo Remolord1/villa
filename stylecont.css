@@ -1,0 +1,115 @@
+.contact-section {
+  position: relative;
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url('./assets/contact-bg.jpg');
+  width: 300%;
+  margin-top: 200px;
+  margin-left: -60px;
+
+}
+
+.contact-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.contact-section .container {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.sub-heading {
+  color: orangered;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.main-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.map iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact-form {
+  background: lightgray;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid lightcyan;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.contact-form button {
+  display: inline-block;
+  background: #000;
+  color: linen;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: orangered;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-card {
+  background: lavender;
+  padding: 20px 30px;
+  border-radius: 10px;
+  flex: 1;
+  max-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.info-card i {
+  font-size: 28px;
+  color: orangered;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.info-card span {
+  display: block;
+  color: gray;
+  font-size: 13px;
+}
