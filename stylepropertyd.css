@@ -1,0 +1,168 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: gray;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.top-bar {
+  background: lightgrey;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar .socials i {
+  margin-left: 10px;
+  color: #666;
+  cursor: pointer;
+}
+
+
+.navbar {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin: 0 15px;
+}
+.menu li a {
+  color: gray;
+}
+.menu li a.active {
+  color: orangered;
+}
+.btn {
+  background: orangered;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+
+.hero {
+  background: url("./assets/WhatsApp\ Image\ 2025-09-16\ at\ 22.05.37_08678bf0.jpg") center/cover no-repeat;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+.hero h1 {
+  font-size: 28px;
+}
+
+
+.property {
+  display: flex;
+  margin: 40px auto;
+  gap: 30px;
+}
+.property .main {
+  flex: 2;
+}
+.property img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.property h2 {
+  margin: 10px 0;
+}
+.property p {
+  margin: 10px 0;
+}
+.faq {
+  margin-top: 20px;
+}
+.faq h4 {
+  margin: 10px 0;
+  color: orangered;
+  cursor: pointer;
+}
+.sidebar {
+  flex: 1;
+}
+.sidebar .card {
+  background: lightgoldenrodyellow;
+  border: 1px solid lightcyan;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.sidebar i {
+  margin-right: 10px;
+  color: orangered;
+}
+
+
+.deal {
+  margin: 50px auto;
+}
+.deal h3 {
+  color: orangered;
+}
+.deal h2 {
+  margin: 10px 0 20px;
+}
+.deal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.deal .info, .deal .text {
+  font-size: 14px;
+}
+.deal .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.deal .btn {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+
+footer {
+  background: black;
+  color: gray;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+
